@@ -19,4 +19,4 @@ if (randomNumber1>randomNumber2){
 else if (randomNumber1<randomNumber2)
 {document.querySelector("h1").innerHTML="Player2 wins "}
 
-else{document.querySelector("h1").innerHTML="Draw Roll Again!"}
+else{document.querySelector("h1").innerHTML="Draw"}
