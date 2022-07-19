@@ -15,8 +15,8 @@ document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
 
 if (randomNumber1>randomNumber2){
-    document.querySelector("h1").innerHTML="Player1 wins"}
+    document.querySelector("h1").innerHTML="Player1 congratulation you won!! Thankyou!!"}
 else if (randomNumber1<randomNumber2)
-{document.querySelector("h1").innerHTML="Player2 wins"}
+{document.querySelector("h1").innerHTML="Player2 congratulations you won!! Thankyou!!!"}
 
-else{document.querySelector("h1").innerHTML="Draw"}
+else{document.querySelector("h1").innerHTML="Draw Oops!! Roll Again!"}
